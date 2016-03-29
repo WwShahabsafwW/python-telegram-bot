@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from utils import *
 
-TOKEN = 'your token'
+TOKEN = '207462560:AAHb1Glvk2xOqWSU23SQQL0HjhMdX767Uy8'
 
 
 bot = telebot.TeleBot("TOKEN")

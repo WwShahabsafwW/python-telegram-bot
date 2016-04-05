@@ -1,11 +1,5 @@
 #!/bin/bash
 
-read -p "Do you want me to install lua,luarocks,redis-server,moonscript,lua-socket,lua-sec,oauth,redis-lua,lua-cjson and ansicolors ? (yes/no):"
-
-if [ "$REPLY" != "yes" ]; then
-	echo " "
-
- else
  	echo "Update and upgrade apt-get"
 	sudo apt-get update && sudo apt-get upgrade
 	echo "Installing python pip"
